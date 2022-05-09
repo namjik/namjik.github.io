@@ -1,0 +1,67 @@
+/*CSS DOCUMENT*/
+
+div.container {
+    max-width: 60em;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto auto 3em;
+}
+
+img {
+    width: 100%;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    list-style-type: none ;
+    margin-right: 1em ;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+nav ul li a {
+    color: #222222;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #cccccc;
+}
+
+p a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #0D616F;
+    border-bottom: dotted 2px;
+}
+
+h1 {
+    width: 4em;
+}
+
+header {
+    background: #888888;
+    grid-column: 1/3;
+}
+
+article {
+    background: #aaaaaa;
+}
+
+aside {
+    background: #cccccc;
+}
+
+footer {
+    background: #eeeeee;
+    grid-column: 1/3;
+}
+
